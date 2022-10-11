@@ -1,0 +1,6 @@
+private int sum(int a; int b){
+	if ( a +b > Interger.MAX){
+		throw new RuntimeExeption("A+B must not be exceeded");
+	}
+	return a + b;
+}
